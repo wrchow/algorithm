@@ -1,6 +1,7 @@
 *.o
 *.obj
 *.swp
+*.exe	
 
 data/
 
