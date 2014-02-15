@@ -1,0 +1,9 @@
+Exception: STATUS_STACK_OVERFLOW at eip=00401226
+eax=03DFF010 ebx=61244546 ecx=00032D30 edx=00401170 esi=00000000 edi=00000000
+ebp=0022CD38 esp=0022CD28 program=G:\career\code\lj2.exe, pid 1016, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CD38  00401226  (00000001, 61243DFC, 009200F8, 61004BB9)
+0022CD68  61007038  (00000000, 0022CDA4, 61006980, 7FFDC000)
+End of stack trace
