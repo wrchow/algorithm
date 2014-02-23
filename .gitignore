@@ -1,8 +1,15 @@
 *.o
+*.jar
+*.out
 *.stackdump
 *.obj
 *.swp
 *.exe	
+*.out
+*.dat
+
 
 data/
+tmp/
+
 
