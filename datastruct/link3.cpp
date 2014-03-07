@@ -24,7 +24,8 @@ class Link {
 public:
 	Link() {
 	// error1: 初始化
-		m_head = new Node();
+		//m_head = new Node();
+		m_head = NULL;
 		m_size = 0;
 	}
 
@@ -101,6 +102,9 @@ void Link::print() {
 
 
 void Link::add(int x) {
+	if (!m_head) {
+		// TODO	
+	}
 	Node* p = m_head;
 	while (p->next != NULL) {
 		p = p->next;
